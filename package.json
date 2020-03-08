@@ -1,0 +1,24 @@
+{
+  "name": "hamburger",
+  "version": "1.0.0",
+  "description": "ReiseTech課題用",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suka0624/hamburger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suka0624/hamburger/issues"
+  },
+  "homepage": "https://github.com/suka0624/hamburger#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  }
+}
