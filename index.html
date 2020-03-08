@@ -5,17 +5,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/sample.css">
+    <link rel="stylesheet" href="asset/css/style.css">
     <title>Document</title>
   </head>
 
   <body>
-    <div id="wrapper">
-      <header></header>
-      <article>
-        test
+    <div clsss="l-wrapper">
+      <header class="l-header">
+        <h1>Hambuger</h1>
+        <form action="" class="p-searchForm">
+          <label for="search" class="c-label"></label>
+          <input type="search" name="search" id="search" class="c-input">
+          <input type="submit" value="検索" class="c-input">
+        </form>
+      </header>
+      <article class="l-contents">
+        <div class="p-branchMenu">
+          <ul class="c-list">
+            <li class="c-list__item">
+              <h2>Take Out</h2>
+              <dl class="c-dl">
+                <dt class="c-dt">小見出しが入ります</dt>
+                <dd class="c-dd">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</dd>
+                <dt class="c-dt">小見出しが入ります</dt>
+                <dd class="c-dd">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</dd>
+              </dl>
+            </li>
+            <li class="c-list__item">
+              <h2>Eat In</h2>
+              <dl>
+                <dt class="c-dt">小見出しが入ります</dt>
+                <dd class="c-dd">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</dd>
+                <dt class="c-dt">小見出しが入ります</dt>
+                <dd class="c-dd">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</dd>
+              </dl>
+            </li>
+          </ul>
+        </div>
       </article>
-      <footer></footer>
+      <section class="access">
+        <h2>見出しが入ります</h2>
+        <p></p>
+        <div class="c-map"></div>
+      </section>
+      <article class="l-sidebar">
+        <h2>Menu</h2>
+        <h3>バーガー</h3>
+        <ul class="c-list">
+          <li class="c-list__item">ハンバーガー</li>
+          <li class="c-list__item">チーズバーガー</li>
+          <li class="c-list__item">テリヤキバーガー</li>
+          <li class="c-list__item">アボカドバーガー</li>
+          <li class="c-list__item">フィッシュバーガー</li>
+          <li class="c-list__item">ベーコンバーガー</li>
+          <li class="c-list__item">チキンバーガー</li>
+        </ul>
+        <h3>サイド</h3>
+        <ul class="c-list">
+          <li class="c-list__item">ポテト</li>
+          <li class="c-list__item">サラダ</li>
+          <li class="c-list__item">ナゲット</li>
+          <li class="c-list__item">コーン</li>
+        </ul>
+        <h3>ドリンク</h3>
+        <ul class="c-list">
+          <li class="c-list__item">コーラ</li>
+          <li class="c-list__item">ファンタ</li>
+          <li class="c-list__item">オレンジ</li>
+          <li class="c-list__item">アップル</li>
+          <li class="c-list__item">紅茶 (Ice/Hot)</li>
+          <li class="c-list__item">コーヒー (Ice/Hot)</li>
+        </ul>
+      </article>
+      <footer class="l-footer">
+        <ul class="c-list">
+          <li class="c-list__item">ショップ情報</li>
+          <li class="c-list__item">ヒストリー</li>
+        </ul>
+        <address class="c-copyright">Copyright: ReiseTech</address>
+      </footer>
     </div>
   </body>
 
