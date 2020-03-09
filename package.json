@@ -19,6 +19,11 @@
   "homepage": "https://github.com/suka0624/hamburger#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
-    "gulp-sass": "^4.0.2"
+    "gulp-sass": "^4.0.2",
+    "node-sass-package-importer": "^5.3.2"
+  },
+  "dependencies": {
+    "html5-reset": "^2.1.3",
+    "normalize.css": "^8.0.1"
   }
 }
