@@ -10,21 +10,31 @@
   </head>
 
   <body>
-    <div clsss="l-wrapper">
+    <div class="l-wrapper">
       <header class="l-header">
-        <h1>Hambuger</h1>
-        <form action="" class="p-searchForm">
-          <label for="search" class="c-label"></label>
-          <input type="search" name="search" id="search" class="c-input">
-          <input type="submit" value="検索" class="c-input">
-        </form>
+        <div class="p-header">
+          <div class="p-header__column">
+            <div class="p-header__column-item--left">
+              <h1>Hambuger</h1>
+            </div>
+            <div class="p-header__column-item--right">
+              <form action="" class="p-searchForm">
+                <label for="search" class="c-label"></label>
+                <input type="search" name="search" id="search" class="c-input">
+                <input type="submit" value="検索" class="c-input">
+              </form>
+            </div>
+          </div>
+        </div>
       </header>
       <article class="l-contents">
-        <img class="c-img__head" src="asset/img/dummy_site.png">
+        <div class="p-top"></div>
         <div class="p-branchMenu">
-          <ul class="c-list">
-            <li class="c-list__item">
-              <h2>Take Out</h2>
+          <ul class="c-list--branchMenu">
+            <li class="c-list__item c-list__item--left">
+              <div class="title">
+                <h2>Take Out</h2>
+              </div>
               <dl>
                 <dt>小見出しが入ります</dt>
                 <dd>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</dd>
@@ -32,8 +42,10 @@
                 <dd>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</dd>
               </dl>
             </li>
-            <li class="c-list__item">
-              <h2>Eat In</h2>
+            <li class="c-list__item c-list__item--right">
+              <div class="title">
+                <h2>Eat In</h2>
+              </div>
               <dl>
                 <dt>小見出しが入ります</dt>
                 <dd>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</dd>
