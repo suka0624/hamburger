@@ -1,0 +1,15 @@
+.p-header {
+    overflow: hidden;
+
+    &__column {
+        overflow: hidden;
+        margin: 20px 15px;
+    
+        &-item--left {
+            float: left;
+        }
+        &-item--right {
+            float: right;
+        }
+    }
+}

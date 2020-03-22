@@ -1,0 +1,9 @@
+.p-header {
+  overflow: hidden; }
+  .p-header__column {
+    overflow: hidden;
+    margin: 20px 15px; }
+    .p-header__column-item--left {
+      float: left; }
+    .p-header__column-item--right {
+      float: right; }

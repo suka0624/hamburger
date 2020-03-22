@@ -1,4 +1,64 @@
 @charset "UTF-8";
+<<<<<<< HEAD
 @import url(./foundation/normalize.css);
 #l-wrapper {
   font-family: "Montserrat","游ゴシック",YuGothic,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif; }
+=======
+/** Foundation */
+@import url(./foundation/normalize.css);
+/** Layout */
+.l-wrapper {
+  font-family: "Montserrat","游ゴシック",YuGothic,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif; }
+
+.l-header {
+  width: 80%;
+  color: dimgray;
+  background-color: seashell;
+  margin: 0; }
+
+.l-contents {
+  width: 80%; }
+
+/** Object - Component */
+.c-img {
+  width: 100%;
+  height: auto; }
+
+.c-list--branchMenu {
+  margin: 30px 30px;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  display: flex;
+  justify-content: center; }
+
+.c-list__item {
+  margin: 2%;
+  height: 681px;
+  width: 356px;
+  float: left; }
+  .c-list__item--left {
+    background-image: url("../../../asset/img/takeout.png"); }
+  .c-list__item--right {
+    background-image: url("../../../asset/img/eatin.png"); }
+  .c-list__item .title {
+    color: white;
+    margin-left: 15px; }
+
+/** Object - Project */
+.p-header {
+  overflow: hidden; }
+  .p-header__column {
+    overflow: hidden;
+    margin: 20px 15px; }
+    .p-header__column-item--left {
+      float: left; }
+    .p-header__column-item--right {
+      float: right; }
+
+.p-top {
+  /* (画像の高さ / 画像の横幅) × 100 */
+  padding-top: 34.127495170%;
+  background: url("../../../asset/img/dummy_site.png");
+  background-size: cover; }
+>>>>>>> feature/step2_1

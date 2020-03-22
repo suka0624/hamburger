@@ -1,2 +1,21 @@
+<<<<<<< HEAD
 @import "./foundation/normalize.css";
 @import "./layout/wrapper.scss";
+=======
+/** Foundation */
+@import "./foundation/normalize.css";
+@import "./foundation/section.scss";
+
+/** Layout */
+@import "./layout/wrapper.scss";
+@import "./layout/header.scss";
+@import "./layout/contents.scss";
+
+/** Object - Component */
+@import "./object/component/img.scss";
+@import "./object/component/list.scss";
+
+/** Object - Project */
+@import "./object/project/header.scss";
+@import "./object/project/top.scss";
+>>>>>>> feature/step2_1
