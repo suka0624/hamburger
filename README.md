@@ -16,10 +16,6 @@ gulp sass:watch
 
 ## 参考サイト
 ### Normalize.css
-<<<<<<< HEAD
-https://qiita.com/irok/items/08a4a015c24a7a83510f
-=======
 https://qiita.com/irok/items/08a4a015c24a7a83510f
 ### Normalize.cssの読み込みがうまくいかず参考
 https://original-game.com/gulp-sass-import-css/
->>>>>>> feature/step2_1

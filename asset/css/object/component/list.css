@@ -11,10 +11,13 @@
   height: 681px;
   width: 356px;
   float: left; }
-  .c-list__item--left {
+
+.c-list__item--left {
     background-image: url("../../../asset/img/takeout.png"); }
-  .c-list__item--right {
+
+.c-list__item--right {
     background-image: url("../../../asset/img/eatin.png"); }
-  .c-list__item .title {
+
+.c-list__item .title {
     color: white;
     margin-left: 15px; }
