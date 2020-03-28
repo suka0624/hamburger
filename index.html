@@ -6,84 +6,191 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="asset/css/style.css">
-    <title>Document</title>
+    <title>Hambuger</title>
   </head>
 
   <body>
-    <div clsss="l-wrapper">
-      <header class="l-header">
-        <h1>Hambuger</h1>
-        <form action="" class="p-searchForm">
-          <label for="search" class="c-label"></label>
-          <input type="search" name="search" id="search" class="c-input">
-          <input type="submit" value="検索" class="c-input">
-        </form>
-      </header>
-      <article class="l-contents">
-        <div class="p-branchMenu">
-          <ul class="c-list">
-            <li class="c-list__item">
-              <h2>Take Out</h2>
-              <dl>
-                <dt>小見出しが入ります</dt>
-                <dd>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</dd>
-                <dt>小見出しが入ります</dt>
-                <dd>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</dd>
-              </dl>
-            </li>
-            <li class="c-list__item">
-              <h2>Eat In</h2>
-              <dl>
-                <dt>小見出しが入ります</dt>
-                <dd>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</dd>
-                <dt>小見出しが入ります</dt>
-                <dd>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</dd>
-              </dl>
-            </li>
-          </ul>
-        </div>
-      </article>
-      <section class="access">
-        <h2>見出しが入ります</h2>
-        <p></p>
-        <div class="c-map"></div>
-      </section>
-      <article class="l-sidebar">
-        <h2>Menu</h2>
-        <h3>バーガー</h3>
-        <ul class="c-list">
-          <li class="c-list__item">ハンバーガー</li>
-          <li class="c-list__item">チーズバーガー</li>
-          <li class="c-list__item">テリヤキバーガー</li>
-          <li class="c-list__item">アボカドバーガー</li>
-          <li class="c-list__item">フィッシュバーガー</li>
-          <li class="c-list__item">ベーコンバーガー</li>
-          <li class="c-list__item">チキンバーガー</li>
-        </ul>
-        <h3>サイド</h3>
-        <ul class="c-list">
-          <li class="c-list__item">ポテト</li>
-          <li class="c-list__item">サラダ</li>
-          <li class="c-list__item">ナゲット</li>
-          <li class="c-list__item">コーン</li>
-        </ul>
-        <h3>ドリンク</h3>
-        <ul class="c-list">
-          <li class="c-list__item">コーラ</li>
-          <li class="c-list__item">ファンタ</li>
-          <li class="c-list__item">オレンジ</li>
-          <li class="c-list__item">アップル</li>
-          <li class="c-list__item">紅茶 (Ice/Hot)</li>
-          <li class="c-list__item">コーヒー (Ice/Hot)</li>
-        </ul>
-      </article>
-      <footer class="l-footer">
-        <ul class="c-list">
-          <li class="c-list__item">ショップ情報</li>
-          <li class="c-list__item">ヒストリー</li>
-        </ul>
-        <address class="c-copyright">Copyright: ReiseTech</address>
-      </footer>
+    <div clsss="f-container">
+      <div class="f-container__body">
+        <header class="f-header">
+          <div class="f-header__body">
+            <section class="f-section--header">
+              <div class="f-section--header__body">
+                <div class="o-heading--hamburger">
+                  <h1 class="o-heading--hamburger__item">
+                    Hamburger
+                  </h1>
+                </div>
+                <form action="" method="post" name="search">
+                  <div class="l-cols--search">
+                    <div class="l-cols--search__col is-input">
+                      <input type="search" name="search" id="search">
+                    </div>
+                    <div class="l-cols--search__col is-button">
+                      <div class="o-action is-submit">
+                        <button type="submit" name="search" value="検索" class="o-action__item">
+                          検索
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <!--f-section--header__body-->
+            </section>
+            <!--f-section--header-->
+          </div>
+          <!--f-header__body-->
+        </header>
+        <main>
+          <article>
+            <section class="f-section--topImage">
+              <div class="f-section--topImage__body">
+                <div class="o-figure">
+                  <img src="../asset/img/dummy_site.png" class="o-figure__item">
+                </div>
+              </div>
+            </section>
+            <section class="f-section--branchMenu">
+              <div class="l-rows--howEat">
+                <div class="l-rows--howEat__row">
+                  <div class="l-unit--takeOut">
+                    <div class="l-unit--takeOut__header">
+                      <h2>Take Out</h2>
+                    </div>
+                    <div class="l-unit--takeOut__image">
+                      <img src="../asset/img/takeout.png">
+                    </div>
+                    <div class="l-unit--takeOut__description">
+                      <!-- TODO: modifireは仮でdetailとしておく -->
+                      <div class="l-rows--detail">
+                        <div class="l-rows--detail__row">
+                          <div class="o-list">
+                            <dl class="o-list__unit">
+                              <dt class="o-list__term">
+                                小見出しが入ります
+                              </dt>
+                              <dd class="o-list__description">
+                                テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                              </dd>
+                            </dl>
+                          </div>
+                        </div>
+                        <div class="l-rows--detail__row">
+                          <div class="o-list">
+                            <dl class="o-list__unit">
+                              <dt class="o-list__term">
+                                小見出しが入ります
+                              </dt>
+                              <dd class="o-list__description">
+                                テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                              </dd>
+                            </dl>
+                          </div>
+                        </div>
+                      </div>
+                      <!--l-rows--detail-->
+                    </div>
+                    <!--l-unit--takeOut__description-->
+                  </div>
+                  <!--l-unit--takeOut-->
+                  <div class="l-unit--eatIn">
+                    <div class="l-unit--eatIn__header">
+                      <h2>Eat In</h2>
+                    </div>
+                    <div class="l-unit--eatIn__image">
+                      <img src="../asset/img/eatin.png">
+                    </div>
+                    <div class="l-unit--eatIn__description">
+                      <!-- TODO: modifireは仮でdetailとしておく -->
+                      <div class="l-rows--detail">
+                        <div class="l-rows--detail__row">
+                          <div class="o-list">
+                            <dl class="o-list__unit">
+                              <dt class="o-list__term">
+                                小見出しが入ります
+                              </dt>
+                              <dd class="o-list__description">
+                                テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                              </dd>
+                            </dl>
+                          </div>
+                        </div>
+                        <div class="l-rows--detail__row">
+                          <div class="o-list">
+                            <dl class="o-list__unit">
+                              <dt class="o-list__term">
+                                小見出しが入ります
+                              </dt>
+                              <dd class="o-list__description">
+                                テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                              </dd>
+                            </dl>
+                          </div>
+                        </div>
+                      </div>
+                      <!--l-rows--detail-->
+                    </div>
+                    <!--l-unit--eatIn__description-->
+                  </div>
+                  <!--l-unit--eatIn-->
+                </div>
+                <!--l-rows--howEat__row-->
+              </div>
+              <!--l-rows--howEat-->
+            </section>
+            <!--f-section--branchMenu-->
+            <section class="f-section--access">
+              <div class="l-unit--access">
+                <div class="l-unit--access__image">
+                  <img src="../asset/img/map.png">
+                </div>
+                <div class="l-unit--access__description">
+                  <div class="o-list">
+                    <dl class="o-list__unit">
+                      <dt class="o-list__term">
+                        見出しが入ります
+                      </dt>
+                      <dd class="o-list__description">
+                        テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                      </dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </article>
+        </main>
+        <footer>
+          <section class="f-section--footer">
+            <div class="f-section--footer__body">
+              <div class="l-cols--footer">
+                <div class="l-cols--footer__col is-navigation">
+                  <div class="l-cols">
+                    <div class="l-cols__col">
+                      <a href="" class="u-link">
+                        ショップ情報
+                      </a>
+                    </div>
+                    <div class="l-cols__col">
+                      <a href="" class="u-link">
+                        ヒストリー
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="l-cols--footer__col is-copyright">
+                  <div class="o-label--copyright">
+                    <p class="o-label--copyright__item">
+                      <small>Copyright: RaiseTech</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </footer>
+      </div>
     </div>
   </body>
 
