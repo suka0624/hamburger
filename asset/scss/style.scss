@@ -1,2 +1,13 @@
-// @importで各scssファイルを取り込む
+/* normalize */
 @import "~normalize.css";
+
+/* Foundation */
+@import "./foundation/container.scss";
+@import "./foundation/header.scss";
+@import "./foundation/section.scss";
+
+/* Layout */
+
+/* Object */
+
+/* Utility */

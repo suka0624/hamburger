@@ -1,3 +1,4 @@
+/* normalize */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -302,3 +303,23 @@ template {
  */
 [hidden] {
   display: none; }
+
+/* Foundation */
+.f-container {
+  width: 100%; }
+
+.f-header {
+  width: 100%;
+  display: flex;
+  flex-direction: column; }
+  .f-header__body {
+    background-color: oldlace;
+    margin: 0;
+    padding: 0; }
+
+.f-section--header {
+  padding: 10px 14px; }
+
+/* Layout */
+/* Object */
+/* Utility */
