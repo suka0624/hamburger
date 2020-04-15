@@ -1,0 +1,7 @@
+.l-cols--search {
+  display: flex; }
+  .l-cols--search__col #search {
+    border: 1px solid darkgray;
+    border-radius: 0.3em; }
+  .l-cols--search .is-button {
+    margin-left: 10px; }
