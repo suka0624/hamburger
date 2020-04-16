@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* normalize */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -313,13 +314,112 @@ template {
   display: flex;
   flex-direction: column; }
   .f-header__body {
-    background-color: oldlace;
-    margin: 0;
-    padding: 0; }
+    background-color: oldlace; }
 
 .f-section--header {
-  padding: 10px 14px; }
+  margin: 30px 0px; }
+  .f-section--header__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
 
 /* Layout */
+.l-cols--search {
+  display: flex; }
+  .l-cols--search__col #search {
+    border: 1px solid darkgray;
+    border-radius: 0.3em; }
+  .l-cols--search .is-button {
+    margin-left: 10px; }
+
+.l-cols--footer {
+  color: white;
+  background-color: #b28c6e;
+  padding: 30px 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .l-cols--footer__col .l-cols {
+    display: flex; }
+    .l-cols--footer__col .l-cols__col:not(:first-child) {
+      padding-left: 15px;
+      margin-left: 15px;
+      border-left: 1px solid white; }
+
+.l-rows--howEat__row {
+  margin: 30px 30px;
+  display: flex;
+  flex-direction: column; }
+
+.l-rows--detail {
+  margin: 0px 10px; }
+  .l-rows--detail__row {
+    background-color: white;
+    opacity: 0.7; }
+
+.l-unit {
+  /* 冗長的になってる。。うまいこと修正したい。 */ }
+  .l-unit--takeOut {
+    height: 681px;
+    background-image: url(../img/takeout.png);
+    position: relative; }
+    .l-unit--takeOut__header {
+      margin-left: 15px;
+      color: white; }
+    .l-unit--takeOut__description {
+      position: absolute;
+      bottom: 0; }
+  .l-unit--eatIn {
+    height: 681px;
+    background-image: url(../img/eatin.png);
+    position: relative; }
+    .l-unit--eatIn__header {
+      margin-left: 15px;
+      color: white; }
+    .l-unit--eatIn__description {
+      position: absolute;
+      bottom: 0; }
+  .l-unit--access {
+    background-image: url(../img/map.png); }
+    .l-unit--access__description {
+      background-color: black;
+      opacity: 0.5; }
+
 /* Object */
+.o-heading--hamburger__item {
+  color: dimgray; }
+
+.o-action__item {
+  border: 1px solid darkgray;
+  border-radius: 0.3em; }
+
+.o-figure {
+  display: flex; }
+  .o-figure__item {
+    width: 100%; }
+
+.o-list--detail__unit {
+  padding: 15px 10px; }
+
+.o-list--detail__term {
+  font-size: 16pt; }
+
+.o-list--detail__description {
+  margin: 10px 10px; }
+
+.o-list--access {
+  color: white; }
+  .o-list--access__unit {
+    padding: 30px 20px; }
+    .o-list--access__unit .o-list--access__term {
+      font-size: 18pt; }
+    .o-list--access__unit .o-list--access__description {
+      margin: 30px 0px; }
+
 /* Utility */
+.u-link {
+  text-decoration: none; }
+  .u-link:link {
+    color: white; }
+  .u-link:visited {
+    color: white; }

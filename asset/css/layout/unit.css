@@ -1,0 +1,28 @@
+@charset "UTF-8";
+.l-unit {
+  /* 冗長的になってる。。うまいこと修正したい。 */ }
+  .l-unit--takeOut {
+    height: 681px;
+    background-image: url(../img/takeout.png);
+    position: relative; }
+    .l-unit--takeOut__header {
+      margin-left: 15px;
+      color: white; }
+    .l-unit--takeOut__description {
+      position: absolute;
+      bottom: 0; }
+  .l-unit--eatIn {
+    height: 681px;
+    background-image: url(../img/eatin.png);
+    position: relative; }
+    .l-unit--eatIn__header {
+      margin-left: 15px;
+      color: white; }
+    .l-unit--eatIn__description {
+      position: absolute;
+      bottom: 0; }
+  .l-unit--access {
+    background-image: url(../img/map.png); }
+    .l-unit--access__description {
+      background-color: black;
+      opacity: 0.5; }

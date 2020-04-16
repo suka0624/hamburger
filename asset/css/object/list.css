@@ -1,0 +1,17 @@
+.o-list--detail__unit {
+  padding: 15px 10px; }
+
+.o-list--detail__term {
+  font-size: 16pt; }
+
+.o-list--detail__description {
+  margin: 10px 10px; }
+
+.o-list--access {
+  color: white; }
+  .o-list--access__unit {
+    padding: 30px 20px; }
+    .o-list--access__unit .o-list--access__term {
+      font-size: 18pt; }
+    .o-list--access__unit .o-list--access__description {
+      margin: 30px 0px; }

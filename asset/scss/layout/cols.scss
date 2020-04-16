@@ -1,0 +1,39 @@
+.l-cols {
+  &--search {
+    display: flex;
+
+    &__col {
+      #search {
+        border: 1px solid darkgray;
+        border-radius: 0.3em;
+      }
+    }
+    .is-button {
+      margin-left: 10px;
+    }
+  }
+
+  &--footer {
+    color: white;
+    background-color: #b28c6e;
+    padding: 30px 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    &__col {
+      .l-cols {
+        display: flex;
+
+        &__col {
+
+          &:not(:first-child) {
+            padding-left: 15px;
+            margin-left: 15px;
+            border-left: 1px solid white;
+          }
+        }
+      }
+    }
+  }
+}
