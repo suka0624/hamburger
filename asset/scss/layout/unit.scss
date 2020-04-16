@@ -1,0 +1,43 @@
+.l-unit {
+  &--takeOut {
+    height: 681px;
+    background-image: url(../img/takeout.png) ;
+    position: relative;
+
+    &__header {
+      margin-left: 15px;
+      color: white;
+    }
+
+    &__description {
+      position: absolute;
+      bottom: 0;
+    }
+  }
+
+  /* 冗長的になってる。。うまいこと修正したい。 */
+  &--eatIn {
+    height: 681px;
+    background-image: url(../img/eatin.png) ;
+    position: relative;
+
+    &__header {
+      margin-left: 15px;
+      color: white;
+    }
+
+    &__description {
+      position: absolute;
+      bottom: 0;
+    }
+  }
+
+  &--access {
+    background-image: url(../img/map.png) ;
+
+    &__description {
+      background-color: black;
+      opacity: 0.5;
+    }
+  }
+}

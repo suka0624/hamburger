@@ -1,0 +1,18 @@
+.l-rows {
+  &--howEat {
+    &__row {
+      margin: 30px 30px;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  &--detail {
+    margin: 0px 10px;
+
+    &__row {
+      background-color: white;
+      opacity: 0.7;
+    }
+  }
+}

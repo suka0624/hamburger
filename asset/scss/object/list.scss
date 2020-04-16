@@ -1,0 +1,29 @@
+.o-list--detail {
+  &__unit {
+    padding: 15px 10px;
+  }
+
+  &__term {
+    font-size: 16pt;
+  }
+
+  &__description {
+    margin: 10px 10px;
+  }
+}
+
+.o-list--access {
+  color: white;
+
+  &__unit {
+    padding: 30px 20px;
+
+    .o-list--access__term {
+      font-size: 18pt;
+    }
+
+    .o-list--access__description {
+      margin: 30px 0px;
+    }
+  }
+}
