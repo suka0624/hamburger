@@ -4,6 +4,7 @@
 .drawer--right .drawer-nav {
   right: (0 - $drawer-width);
   transition: right $drawer-transitionDuration $drawer-transitionFunction;
+  background-color: gray;
 }
 
 .drawer--right.drawer-open .drawer-nav,

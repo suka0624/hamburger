@@ -15,26 +15,29 @@
   background-color: #fff; }
 
 .drawer-brand {
-  font-size: 1.5rem;
-  font-weight: bold;
+  font-size: 14pt;
   line-height: 3.75rem;
   display: block;
   padding-right: 0.75rem;
   padding-left: 0.75rem;
   text-decoration: none;
-  color: #222; }
+  color: darkgray; }
 
 .drawer-menu {
-  margin: 0;
-  padding: 0;
-  list-style: none; }
+  margin-left: 30px;
+  margin-top: 0;
+  padding-top: 80px;
+  padding-bottom: 160px;
+  list-style: none;
+  background-color: linen; }
 
 .drawer-menu-item {
-  font-size: 1rem;
+  font-size: 12px;
   display: block;
+  margin-left: 10px;
   padding: 0.75rem;
   text-decoration: none;
-  color: #222; }
+  color: darkgray; }
 
 .drawer-menu-item:hover {
   text-decoration: underline;
@@ -93,7 +96,8 @@
 \*!------------------------------------*/
 .drawer--right .drawer-nav {
   right: -16.25rem;
-  transition: right 0.6s cubic-bezier(0.19, 1, 0.22, 1); }
+  transition: right 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+  background-color: gray; }
 
 .drawer--right.drawer-open .drawer-nav,
 .drawer--right .drawer-hamburger,
@@ -347,7 +351,7 @@
   padding-right: 0.75rem;
   padding-left: 1.5rem;
   text-decoration: none;
-  color: #222; }
+  color: darkgray; }
 
 .drawer-dropdown-menu-item:hover {
   text-decoration: underline;
