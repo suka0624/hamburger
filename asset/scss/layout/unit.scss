@@ -1,8 +1,12 @@
 .l-unit {
   &--takeOut {
     height: 681px;
-    background-image: url(../img/takeout.png) ;
+    background-image: url(../img/takeout.png);
+    background-size: 100%;
     position: relative;
+    @media screen and (min-width:768px) {
+      flex-basis: 47%;
+    }
 
     &__header {
       margin-left: 15px;
@@ -18,8 +22,12 @@
   /* 冗長的になってる。。うまいこと修正したい。 */
   &--eatIn {
     height: 681px;
-    background-image: url(../img/eatin.png) ;
+    background-image: url(../img/eatin.png);
+    background-size: 100%;
     position: relative;
+    @media screen and (min-width:768px) {
+      flex-basis: 47%;
+    }
 
     &__header {
       margin-left: 15px;
