@@ -4,7 +4,11 @@
   .l-unit--takeOut {
     height: 681px;
     background-image: url(../img/takeout.png);
+    background-size: 100%;
     position: relative; }
+    @media screen and (min-width: 768px) {
+      .l-unit--takeOut {
+        flex-basis: 47%; } }
     .l-unit--takeOut__header {
       margin-left: 15px;
       color: white; }
@@ -14,7 +18,11 @@
   .l-unit--eatIn {
     height: 681px;
     background-image: url(../img/eatin.png);
+    background-size: 100%;
     position: relative; }
+    @media screen and (min-width: 768px) {
+      .l-unit--eatIn {
+        flex-basis: 47%; } }
     .l-unit--eatIn__header {
       margin-left: 15px;
       color: white; }

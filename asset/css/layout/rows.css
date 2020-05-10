@@ -1,7 +1,13 @@
 .l-rows--howEat__row {
   margin: 30px 30px;
-  display: flex;
-  flex-direction: column; }
+  display: flex; }
+  @media screen and (min-width: 360px) {
+    .l-rows--howEat__row {
+      flex-direction: column; } }
+  @media screen and (min-width: 768px) {
+    .l-rows--howEat__row {
+      flex-direction: row;
+      justify-content: space-between; } }
 
 .l-rows--detail {
   margin: 0px 10px; }
