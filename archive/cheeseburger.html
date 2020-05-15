@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="../asset/css/style.css">
     <!-- jquery & iScroll -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
     <!-- drawer.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
-    <title>Hambuger</title>
+    <title>チーズバーガー</title>
 
     <script>
       $(document).ready(function () {
@@ -61,7 +61,7 @@
             <ul class="drawer-menu">
               <li><a class="drawer-brand" href="#">バーガー</a></li>
               <li><a class="drawer-menu-item" href="#">ハンバーガー</a></li>
-              <li><a class="drawer-menu-item" href="/archive/cheeseburger.html">チーズバーガー</a></li>
+              <li><a class="drawer-menu-item" href="#">チーズバーガー</a></li>
               <li><a class="drawer-menu-item" href="#">テリヤキバーガー</a></li>
               <li><a class="drawer-menu-item" href="#">アボガドバーガー</a></li>
               <li><a class="drawer-menu-item" href="#">フィッシュバーガー</a></li>
@@ -84,46 +84,45 @@
         </header>
         <main>
           <article>
-            <section class="f-section--topImage">
-              <div class="f-section--topImage__body">
-                <div class="o-figure">
-                  <img src="../asset/img/dummy_site.png" class="o-figure__item">
-                </div>
+            <section class="f-section--cheeseburgerTop">
+              <div class="f-section--cheeseburgerTop__mask"></div>
+              <div class="f-section--cheeseburgerTop__header">
+                <h2>Menu:</h2>
+                <h5>チーズバーガー</h5>
+              </div>
+            </section>
+            <section class="f-sectoin--overview">
+              <div class="o-list--overview">
+                <dl class="o-list--overview__unit">
+                  <dt class="o-list--overview__term">
+                    小見出しが入ります
+                  </dt>
+                  <dd class="o-list--overview__description">
+                    テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                  </dd>
+                </dl>
               </div>
             </section>
             <section class="f-section--branchMenu">
-              <div class="l-rows--howEat">
-                <div class="l-rows--howEat__row">
-                  <div class="l-unit--takeOut">
-                    <div class="l-unit--takeOut__header">
-                      <h2>Take Out</h2>
+              <div class="l-rows--menu">
+                <div class="l-rows--menu__row">
+                  <!-- チーズバーガー -->
+                  <div class="l-unit--archive">
+                    <div class="l-unit--archive__image">
+                      <img src="../asset/img/archive/cheeseburger/cheeseburger.png" alt="">
                     </div>
-                    <!-- 画像はCSSのbackground-imageで設定 -->
-                    <!-- <div class="l-unit--takeOut__image">
-                      <img src="../asset/img/takeout.png">
-                    </div> -->
-                    <div class="l-unit--takeOut__description">
-                      <!-- TODO: modifireは仮でdetailとしておく -->
+                    <div class="l-unit--archive__header">
+                      チーズバーガー
+                    </div>
+                    <div class="l-unit--archive__description">
                       <div class="l-rows--detail">
-                        <div class="l-rows--detail__row">
+                        <div class="l-rows--detail__row--cheeseBurger">
                           <div class="o-list--detail">
                             <dl class="o-list--detail__unit">
-                              <dt class="o-list--detail__term">
+                              <dt class="o-list--detail__term--archive">
                                 小見出しが入ります
                               </dt>
-                              <dd class="o-list--detail__description">
-                                テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
-                              </dd>
-                            </dl>
-                          </div>
-                        </div>
-                        <div class="l-rows--detail__row">
-                          <div class="o-list--detail">
-                            <dl class="o-list--detail__unit">
-                              <dt class="o-list--detail__term">
-                                小見出しが入ります
-                              </dt>
-                              <dd class="o-list--detail__description">
+                              <dd class="o-list--detail__description--archive">
                                 テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
                               </dd>
                             </dl>
@@ -132,39 +131,32 @@
                       </div>
                       <!--l-rows--detail-->
                     </div>
-                    <!--l-unit--takeOut__description-->
+                    <!--l-unit--cheeseBurger__description-->
+                    <div class="l-unit--archive__footer">
+                      <div class="o-action--button">
+                        <button class="o-action--button__item">
+                          詳しく見る
+                        </button>
+                      </div>
+                    </div>
                   </div>
-                  <!--l-unit--takeOut-->
-                  <div class="l-unit--eatIn">
-                    <div class="l-unit--eatIn__header">
-                      <h2>Eat In</h2>
+                  <!-- ダブルチーズバーガー -->
+                  <div class="l-unit--archive">
+                    <div class="l-unit--archive__image">
+                      <img src="../asset/img/archive/cheeseburger/cheeseburger.png" alt="">
                     </div>
-                    <div class="l-unit--eatIn__image">
-                      <!-- <img src="../asset/img/eatin.png"> -->
-                      <img src="">
+                    <div class="l-unit--archive__header">
+                      ダブルチーズバーガー
                     </div>
-                    <div class="l-unit--eatIn__description">
-                      <!-- TODO: modifireは仮でdetailとしておく -->
+                    <div class="l-unit--archive__description">
                       <div class="l-rows--detail">
-                        <div class="l-rows--detail__row">
+                        <div class="l-rows--detail__row--cheeseBurger">
                           <div class="o-list--detail">
                             <dl class="o-list--detail__unit">
-                              <dt class="o-list--detail__term">
+                              <dt class="o-list--detail__term--archive">
                                 小見出しが入ります
                               </dt>
-                              <dd class="o-list--detail__description">
-                                テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
-                              </dd>
-                            </dl>
-                          </div>
-                        </div>
-                        <div class="l-rows--detail__row">
-                          <div class="o-list--detail">
-                            <dl class="o-list--detail__unit">
-                              <dt class="o-list--detail__term">
-                                小見出しが入ります
-                              </dt>
-                              <dd class="o-list--detail__description">
+                              <dd class="o-list--detail__description--archive">
                                 テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
                               </dd>
                             </dl>
@@ -173,31 +165,57 @@
                       </div>
                       <!--l-rows--detail-->
                     </div>
-                    <!--l-unit--eatIn__description-->
+                    <!--l-unit--cheeseBurger__description-->
+                    <div class="l-unit--archive__footer">
+                      <div class="o-action--button">
+                        <button class="o-action--button__item">
+                          詳しく見る
+                        </button>
+                      </div>
+                    </div>
                   </div>
-                  <!--l-unit--eatIn-->
+                  <!-- スペシャルチーズバーガー -->
+                  <div class="l-unit--archive">
+                    <div class="l-unit--archive__image">
+                      <img src="../asset/img/archive/cheeseburger/cheeseburger.png" alt="">
+                    </div>
+                    <div class="l-unit--archive__header">
+                      スペシャルチーズバーガー
+                    </div>
+                    <div class="l-unit--archive__description">
+                      <div class="l-rows--detail">
+                        <div class="l-rows--detail__row--cheeseBurger">
+                          <div class="o-list--detail">
+                            <dl class="o-list--detail__unit">
+                              <dt class="o-list--detail__term--archive">
+                                小見出しが入ります
+                              </dt>
+                              <dd class="o-list--detail__description--archive">
+                                テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                              </dd>
+                            </dl>
+                          </div>
+                        </div>
+                      </div>
+                      <!--l-rows--detail-->
+                    </div>
+                    <!--l-unit--cheeseBurger__description-->
+                    <div class="l-unit--archive__footer">
+                      <div class="o-action--button">
+                        <button class="o-action--button__item">
+                          詳しく見る
+                        </button>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <!--l-rows--howEat__row-->
               </div>
-              <!--l-rows--howEat-->
+              <div class="u-pager">
+                <div class="prev">&lt;&lt; 前へ</div>
+                <div class="next">次へ &gt;&gt;</div>
+              </div>
             </section>
             <!--f-section--branchMenu-->
-            <section class="f-section--access">
-              <div class="l-unit--access">
-                <div class="l-unit--access__description">
-                  <div class="o-list--access">
-                    <dl class="o-list--access__unit">
-                      <dt class="o-list--access__term">
-                        見出しが入ります
-                      </dt>
-                      <dd class="o-list--access__description">
-                        テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
-                      </dd>
-                    </dl>
-                  </div>
-                </div>
-              </div>
-            </section>
           </article>
         </main>
         <footer>

@@ -10,6 +10,9 @@
   &__description {
     margin: 10px 10px;
   }
+  &__description--archive {
+    margin: 0px;
+  }
 }
 
 .o-list--access {
@@ -24,6 +27,17 @@
 
     .o-list--access__description {
       margin: 30px 0px;
+    }
+  }
+}
+.o-list--overview {
+  &__unit {
+    .o-list--overview__term {
+      font-size: 18pt;
+      margin-left: 15px;
+    }
+    .o-list--overview__description {
+      margin: 20px 10px 20px 20px;
     }
   }
 }

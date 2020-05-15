@@ -48,4 +48,22 @@
       opacity: 0.5;
     }
   }
+
+  &--archive {
+    margin: 0px 15px 15px;
+    padding-bottom: 30px;
+    color: white;
+    background-color: #24140e;
+    &__image {
+      img {
+        height: 200px;
+        width: 100%;
+      }
+    }
+    &__header {
+      margin-top: 30px;
+      margin-left: 15px;
+      font-size: 16pt;
+    }
+  }
 }

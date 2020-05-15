@@ -34,3 +34,15 @@
     .l-unit--access__description {
       background-color: black;
       opacity: 0.5; }
+  .l-unit--archive {
+    margin: 0px 15px 15px;
+    padding-bottom: 30px;
+    color: white;
+    background-color: #24140e; }
+    .l-unit--archive__image img {
+      height: 200px;
+      width: 100%; }
+    .l-unit--archive__header {
+      margin-top: 30px;
+      margin-left: 15px;
+      font-size: 16pt; }

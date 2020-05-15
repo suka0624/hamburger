@@ -7,6 +7,9 @@
 .o-list--detail__description {
   margin: 10px 10px; }
 
+.o-list--detail__description--archive {
+  margin: 0px; }
+
 .o-list--access {
   color: white; }
   .o-list--access__unit {
@@ -15,3 +18,10 @@
       font-size: 18pt; }
     .o-list--access__unit .o-list--access__description {
       margin: 30px 0px; }
+
+.o-list--overview__unit .o-list--overview__term {
+  font-size: 18pt;
+  margin-left: 15px; }
+
+.o-list--overview__unit .o-list--overview__description {
+  margin: 20px 10px 20px 20px; }

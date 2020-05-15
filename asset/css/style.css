@@ -323,6 +323,22 @@ template {
     flex-direction: column;
     align-items: center; }
 
+.f-section--cheeseburgerTop {
+  position: relative;
+  background-image: url(../img/archive/cheeseburger/cheeseburger_top.png);
+  background-size: cover;
+  height: 283px; }
+  .f-section--cheeseburgerTop__mask {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6); }
+  .f-section--cheeseburgerTop__header {
+    position: absolute;
+    padding-top: 90px;
+    padding-left: 25px;
+    color: white; }
+
 /* Layout */
 .l-cols--search {
   display: flex; }
@@ -398,6 +414,18 @@ template {
     .l-unit--access__description {
       background-color: black;
       opacity: 0.5; }
+  .l-unit--archive {
+    margin: 0px 15px 15px;
+    padding-bottom: 30px;
+    color: white;
+    background-color: #24140e; }
+    .l-unit--archive__image img {
+      height: 200px;
+      width: 100%; }
+    .l-unit--archive__header {
+      margin-top: 30px;
+      margin-left: 15px;
+      font-size: 16pt; }
 
 /* Object */
 .o-heading--hamburger__item {
@@ -406,6 +434,18 @@ template {
 .o-action__item {
   border: 1px solid darkgray;
   border-radius: 0.3em; }
+
+.o-action--button__item {
+  width: 200px;
+  font-size: 24px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 8px 0 10px;
+  margin: auto;
+  color: gray;
+  background-color: white;
+  border-radius: 25px; }
 
 .o-figure {
   display: flex; }
@@ -421,6 +461,9 @@ template {
 .o-list--detail__description {
   margin: 10px 10px; }
 
+.o-list--detail__description--archive {
+  margin: 0px; }
+
 .o-list--access {
   color: white; }
   .o-list--access__unit {
@@ -429,6 +472,13 @@ template {
       font-size: 18pt; }
     .o-list--access__unit .o-list--access__description {
       margin: 30px 0px; }
+
+.o-list--overview__unit .o-list--overview__term {
+  font-size: 18pt;
+  margin-left: 15px; }
+
+.o-list--overview__unit .o-list--overview__description {
+  margin: 20px 10px 20px 20px; }
 
 /* Utility */
 .u-link {
@@ -833,3 +883,11 @@ template {
 @media (min-width: 75em) {
   .drawer-container {
     max-width: 70rem; } }
+
+.u-pager {
+  height: 30px;
+  margin: 60px 15px 20px; }
+  .u-pager .prev {
+    float: left; }
+  .u-pager .next {
+    float: right; }

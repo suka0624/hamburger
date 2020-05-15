@@ -4,3 +4,19 @@
     display: flex;
     flex-direction: column;
     align-items: center; }
+
+.f-section--cheeseburgerTop {
+  position: relative;
+  background-image: url(../img/archive/cheeseburger/cheeseburger_top.png);
+  background-size: cover;
+  height: 283px; }
+  .f-section--cheeseburgerTop__mask {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6); }
+  .f-section--cheeseburgerTop__header {
+    position: absolute;
+    padding-top: 90px;
+    padding-left: 25px;
+    color: white; }
