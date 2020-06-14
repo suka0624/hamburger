@@ -25,4 +25,23 @@
       color: white;
     }
   }
+  &--singleHeader {
+    position: relative;
+    background-image: url(../img/single/cheeseburger/cheeseburger_top.png);
+    background-size: cover;
+    height: 283px;
+    &__header {
+      position: absolute;
+      padding-top: 90px;
+      padding-left: 25px;
+      color: white;
+    }
+  }
+  &--singleContents {
+    margin: 0 20px 0;
+    &__headline {
+    }
+    &__source {
+    }
+  }
 }
