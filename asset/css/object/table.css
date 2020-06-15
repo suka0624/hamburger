@@ -1,0 +1,12 @@
+.o-table__unit {
+  border-collapse: collapse;
+  border-style: solid;
+  margin-bottom: 30px; }
+  .o-table__unit .o-table__header .o-table__head {
+    border: solid 1px black; }
+  .o-table__unit .o-table__footer {
+    border: solid 1px black; }
+  .o-table__unit .o-table__body .o-table__row .o-table__head {
+    border: solid 1px black; }
+  .o-table__unit .o-table__body .o-table__row .o-table__data {
+    border: solid 1px black; }

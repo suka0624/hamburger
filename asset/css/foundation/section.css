@@ -34,3 +34,14 @@
 
 .f-section--singleContents {
   margin: 0 20px 0; }
+
+.f-section--aboutHeader {
+  position: relative;
+  background-image: url(/asset/img/about/about.png);
+  background-size: cover;
+  height: 283px; }
+  .f-section--aboutHeader__header {
+    position: absolute;
+    padding-top: 90px;
+    padding-left: 25px;
+    color: white; }

@@ -44,4 +44,17 @@
     &__source {
     }
   }
+
+  &--aboutHeader {
+    position: relative;
+    background-image: url(/asset/img/about/about.png);
+    background-size: cover;
+    height: 283px;
+    &__header {
+      position: absolute;
+      padding-top: 90px;
+      padding-left: 25px;
+      color: white;
+    }    
+  }
 }

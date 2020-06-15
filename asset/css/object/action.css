@@ -13,3 +13,10 @@
   color: gray;
   background-color: white;
   border-radius: 25px; }
+
+.o-action--single {
+  margin-bottom: 30px; }
+  .o-action--single__item {
+    width: 220px;
+    height: 60px;
+    border-radius: 10px; }
